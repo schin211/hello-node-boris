@@ -7,7 +7,7 @@ describe('GET /', function() {
     request(app)
       .get('/')
       .expect(function(res) {
-        if (res.text.indexOf('Hello Node!!') == -1) throw new Error ("Missing Hello Node!");
+        if (res.text.indexOf('Hello Node!') == -1) throw new Error ("Missing Hello Node!");
      }).expect(200, done);
   });
 });
