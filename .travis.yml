@@ -8,8 +8,8 @@ script:
 - npm test
 deploy:
   provider: heroku
-  api_key: c1ea0259-e892-415a-9f51-e19b670431fc
+  api_key: 1718e542-5505-4e31-a14d-b27514635f92
   app: hello-node-boris
   on:
-    repo: bmisljen/hello-node-boris
+    repo: schin211/hello-node-boris
     branch: master
